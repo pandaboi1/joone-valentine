@@ -1,20 +1,22 @@
 body {
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 100px;
   font-family: "Courier";
-  background-color: #fff5e4;
-  color: #ff9494;
+  background-color: #1e0000;
+  color: #eeeeee;
 }
 
 img {
-  height: 400px;
+  height: 500px;
   width: auto;
-  padding: 10px;
+  padding-right: 25px;
 }
 
 #valentineQuestion {
   font-size: 50px;
-  margin-bottom: 10px;
 }
 .answerButton {
   padding: 10px 20px;
@@ -23,17 +25,17 @@ img {
   margin: 10px;
   font-family: "courier";
   margin-bottom: 20px;
-  background-color: #ffe3e1;
-  color: #e67373;
+  background-color: #c8c8c8;
+  color: #000000;
   border-radius: 12px;
-  border: 2px solid #ffe3e1;
-  box-shadow: 1px 1px 2px #ff9494;
+  border: 2px solid #ffffff;
+  box-shadow: 1px 1px 2px rgb(255, 255, 255)8f9494;
   transition: 0.3s;
 }
 
 .answerButton:hover {
-  background-color: #ff9494;
+  background-color: #3f1a1a;
   color: #ffe3e1;
-  border: 2px solid #ff9494;
+  border: 2px solid #ffffff;
   box-shadow: 1px 1px 2px #ffe3e1;
 }
